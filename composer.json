@@ -1,0 +1,25 @@
+{
+    "name": "cblink/laravel-aliyun-mns",
+    "description": "aliyun mns queue driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "me@xieying.vip"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "aliyun/aliyun-mns-php-sdk": "^1.1"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Cblink\\Aliyun\\Mns\\": "src"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.14"
+    }
+}
